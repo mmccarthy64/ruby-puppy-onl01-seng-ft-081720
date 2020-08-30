@@ -8,5 +8,9 @@ class Dog
     @@all << name
     
   end
+  
+  def all
+    @@all
+  end
 
 end
